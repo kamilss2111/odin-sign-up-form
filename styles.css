@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Skranji', cursive;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 33vw;
+    height: 100vh;
+    background-image: url(./img/sidebar.jpg);
+    background-size:cover;
+}
+
+.odin-logo {
+    position: relative;
+    top: 25vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+}
+
+.odin-logo > img {
+    height: 100px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.info {
+    padding: 25px 75px;
+
+}
+
+.info > p {
+    font-size: 20px;
+    width: 43vw;
+}
+
+.info > p:nth-of-type(3) {
+    padding-top: 25px;
+}
+
+.form {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding: 25px 75px;
+}
+
+.form > p {
+    font-size: 20px;
+    width: 100%;
+}
+
+.inputs {
+    display: flex;
+    flex-flow: column wrap;
+    width: 35%;
+}
+
+.create {
+    padding: 25px 75px;
+}
+
+.create > button {
+    font-size: 30px;
+    width: 350px;
+    height: 50px;
+    color: #596D48;
+    margin: 15px 0;
+}
+
+a:link {
+    color: #596D48;
+}
